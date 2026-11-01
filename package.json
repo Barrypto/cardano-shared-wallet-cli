@@ -1,0 +1,37 @@
+{
+  "name": "cardano-shared-wallet-cli",
+  "version": "0.1.0",
+  "description": "Node-free Cardano native-script multisig wallet CLI for offline signing",
+  "type": "module",
+  "bin": {
+    "csw": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "BlizzardSaber",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlizzardSaber/cardano-shared-wallet-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlizzardSaber/cardano-shared-wallet-cli/issues"
+  },
+  "homepage": "https://github.com/BlizzardSaber/cardano-shared-wallet-cli#readme",
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-nodejs": "17.0.0",
+    "@meshsdk/core": "1.9.1",
+    "bech32": "2.0.0",
+    "qrcode": "1.5.4"
+  },
+  "overrides": {
+    "@fastify/busboy": "3.2.4",
+    "ip-address": "10.7.5",
+    "undici": "6.29.1"
+  }
+}

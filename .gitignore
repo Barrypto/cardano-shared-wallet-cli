@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+out/
+.env
+.env.*
+!.env.example
+.csw/
+blockfrost.env
+*.cbor
+*.hex
+*.base64
+*.tx
+*.signed
+*.signed.*
+new-shared-wallet-*.json
+Cardano主网多签.json
+github token.json
