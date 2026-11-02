@@ -6,7 +6,7 @@ Please do not disclose wallet-safety vulnerabilities in a public issue.
 
 If GitHub private vulnerability reporting is enabled for this repository, use:
 
-`https://github.com/BlizzardSaber/cardano-shared-wallet-cli/security/advisories/new`
+`https://github.com/Barrypto/cardano-shared-wallet-cli/security/advisories/new`
 
 If that page is unavailable, open a public issue titled `Security contact
 request` without vulnerability details or wallet data, and ask the maintainer

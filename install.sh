@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-REPOSITORY="BlizzardSaber/cardano-shared-wallet-cli"
+REPOSITORY="Barrypto/cardano-shared-wallet-cli"
 SOURCE_URL="https://github.com/${REPOSITORY}/archive/refs/heads/main.tar.gz"
 NODE_DIST_URL="https://nodejs.org/dist/latest-v22.x"
 CARDANO_CLI_VERSION="11.6.0.0"

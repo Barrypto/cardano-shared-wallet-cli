@@ -14,15 +14,15 @@
     "node": ">=20"
   },
   "license": "MIT",
-  "author": "BlizzardSaber",
+  "author": "Barrypto",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlizzardSaber/cardano-shared-wallet-cli.git"
+    "url": "git+https://github.com/Barrypto/cardano-shared-wallet-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/BlizzardSaber/cardano-shared-wallet-cli/issues"
+    "url": "https://github.com/Barrypto/cardano-shared-wallet-cli/issues"
   },
-  "homepage": "https://github.com/BlizzardSaber/cardano-shared-wallet-cli#readme",
+  "homepage": "https://github.com/Barrypto/cardano-shared-wallet-cli#readme",
   "dependencies": {
     "@emurgo/cardano-serialization-lib-nodejs": "17.0.0",
     "@meshsdk/core": "1.9.1",

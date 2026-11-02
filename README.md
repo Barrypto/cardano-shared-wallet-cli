@@ -54,7 +54,7 @@ witness 由官方 `cardano-cli` 离线生成，不会把私钥交给任何服务
 macOS 或 Linux 在终端执行一行命令：
 
 ```bash
-curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/BlizzardSaber/cardano-shared-wallet-cli/main/install.sh?release=20261101-4' | bash
+curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Barrypto/cardano-shared-wallet-cli/main/install.sh?release=20261101-4' | bash
 ```
 
 安装脚本会把项目代码放到桌面的 `cardano-shared-wallet-cli` 文件夹，并自动安装：
@@ -100,7 +100,7 @@ macOS 默认使用 `~/Desktop`。Linux 优先读取 `xdg-user-dir DESKTOP`，因
 也可以使用远程一行命令：
 
 ```bash
-curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/BlizzardSaber/cardano-shared-wallet-cli/main/uninstall.sh?release=20261101-1' | bash
+curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Barrypto/cardano-shared-wallet-cli/main/uninstall.sh?release=20261101-1' | bash
 ```
 
 默认会把程序、内置 Node.js、官方 `cardano-cli` 和本工具创建的命令行启动器移动到
@@ -109,7 +109,7 @@ curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Blizzar
 如需彻底卸载并同时把 `~/.csw` 移入废纸篓：
 
 ```bash
-curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/BlizzardSaber/cardano-shared-wallet-cli/main/uninstall.sh?release=20261101-1' | CSW_PURGE_DATA=1 bash
+curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Barrypto/cardano-shared-wallet-cli/main/uninstall.sh?release=20261101-1' | CSW_PURGE_DATA=1 bash
 ```
 
 即使使用彻底卸载，链上钱包和资产也不会消失；被移除的只是本机公开钱包描述、配置和
@@ -123,7 +123,7 @@ curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Blizzar
 需要 Node.js 20 或更高版本，以及 PATH 中准确版本的 `cardano-cli 11.6.0.0`：
 
 ```bash
-git clone https://github.com/BlizzardSaber/cardano-shared-wallet-cli.git
+git clone https://github.com/Barrypto/cardano-shared-wallet-cli.git
 cd cardano-shared-wallet-cli
 npm install
 cardano-cli --version
